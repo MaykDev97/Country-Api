@@ -9,7 +9,7 @@ import { Country } from "../interfaces/pais.interface";
 
 export class PaisService {
 
-    private apiUrl: string = 'https://restcountries.eu/rest/v2';
+    private apiUrl: string = 'https://restcountries.eu/rest/v3.1';
 
 get httpParams(){
   return new HttpParams().set('fields', 'name;capital;alpha2Code;flag;population');
